@@ -277,15 +277,16 @@ h1{
     max-width: 250px;
   }
   .header{
-    padding-top: 4em;
+    padding-top: 3em;
   }
   .navbar a {
     font-size: 1.4em;
   }
   .header-grid{
-    margin: 0;
+    margin: 0 -2em;
   }
   .hero {
+    padding-top: 4em;
     background: url('/static/images/bg-curvy-desktop.svg') no-repeat, var(--dark-blue);
     background-position: center bottom, center;
     background-size: 100%;
@@ -337,7 +338,7 @@ h1{
     box-shadow: rgba(255, 255, 255, 0.01) 10px 10px 4px
   }
   .review p {
-    font-size: 1.2em;
+    font-size: 1.44em;
   }
   .reviews-grid {
     grid-template-columns: minmax(200px, 360px) minmax(200px, 360px) minmax(200px, 360px);
@@ -347,7 +348,7 @@ h1{
   .reviews-grid::before{
     height: 50px;
     left: -.5em;
-    top: -2.2em;
+    top: -2.8em;
     width: 50px;
     z-index: 1;
   }
@@ -361,6 +362,9 @@ h1{
     max-width: 860px;
     margin: 0 auto;
     padding: 3em 4em;
+  }
+  .form {
+    margin-top: 16em;
   }
   .form h3 {
     font-size: 2.4em;
@@ -394,7 +398,7 @@ h1{
   .footer-grid {
     display: grid;
     grid-column-gap: 2em;
-    grid-template-columns: minmax(300px, 370px) 1fr minmax(100px, 120px) minmax(100px, 120px) minmax(100px, 150px);
+    grid-template-columns: minmax(300px, 370px) 1fr minmax(90px, 100px) minmax(90px, 100px) minmax(100px, 150px);
     margin-bottom: 3em;
   }
   .social {
