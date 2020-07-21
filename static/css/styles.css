@@ -274,10 +274,10 @@ h1{
     width: 180px;
   }
   .button {
-    max-width: 250px;
+    max-width: 280px;
   }
   .header{
-    padding-top: 3em;
+    padding-top: 3.5em;
   }
   .navbar a {
     font-size: 1.4em;
@@ -286,13 +286,13 @@ h1{
     margin: 0 -2em;
   }
   .hero {
-    padding-top: 4em;
+    padding-top: 3.5em;
     background: url('/static/images/bg-curvy-desktop.svg') no-repeat, var(--dark-blue);
     background-position: center bottom, center;
     background-size: 100%;
   }
   .hero h1 {
-    font-size: 2.5em;
+    font-size: 2.7em;
   }
   .hero p {
     font-size: 1.4em;
@@ -310,7 +310,7 @@ h1{
     justify-content: center;
   }
   .features img {
-    height: 100px;
+    height: 80px;
     width: auto;
   }
   .features p {
